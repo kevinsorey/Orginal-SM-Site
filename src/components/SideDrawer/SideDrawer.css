@@ -1,0 +1,64 @@
+.side-drawer{
+    height: 100%;
+    background-color: #C0C0C0;
+    box-shadow: 1px 0 3px #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 400px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open{
+    transform: translateX(0%);
+
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.side-drawer li{
+    margin: 0.5rem 0;
+
+}
+
+.side-drawer a {
+    /* margin: 10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px 5px 5px 5px; */
+    text-decoration: none;  
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.side-drawer a:hover{
+    color: #e0871a;
+    text-decoration: none;
+}
+
+
+.cardWrpped{
+    margin: 5px;
+    text-align: center;
+}
+
+  
+  .chip img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+  }
